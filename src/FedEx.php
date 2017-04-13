@@ -4,7 +4,7 @@ class FedEx {
 
 	protected $_soapClient;
 	private $request;
-	private $endPoint;	
+	public $endPoint;	
 
 	private $key;
 	private $password;
